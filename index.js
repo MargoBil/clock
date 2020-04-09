@@ -13,7 +13,7 @@ function getActiveTime () {
   getCurrentSeconds ();
   function getCurrentHour () {
     const hour = document.querySelector ('.clock__arrow--hours');
-    return (hour.style.transform = `rotate(${currentTime.getHours() * 30 + currentTime.getMinutes() * 0.25}deg)`);
+    return console.log((hour.style.transform = `rotate(${currentTime.getHours() * 30 + currentTime.getMinutes() * 50/100}deg)`));
   }
   function getCurrentMinutes () {
     const minutes = document.querySelector ('.clock__arrow--minutes');
